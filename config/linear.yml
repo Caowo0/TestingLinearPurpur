@@ -1,0 +1,19 @@
+# Linear Region Format Configuration File
+#
+# Linear is an experimental region file format that
+# may, or may not, break your server. Please remember
+# to always keep and create backups, even if not using Linear.
+#
+# Report any issues on our GitHub repository:
+# https://github.com/RealTriassic/LinearPaper
+
+verbose: false
+linear:
+  flush-frequency: 10
+  flush-max-threads: 1
+world-settings:
+  default:
+    format: LINEAR
+    linear:
+      compression-level: 6
+config-version: 1
